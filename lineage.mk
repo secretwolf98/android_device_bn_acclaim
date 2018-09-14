@@ -20,9 +20,9 @@ TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_BOOTANIMATION_HALF_RES := true
 
-DEVICE_PACKAGE_OVERLAYS += device/bn/acclaim/overlay/cm
+DEVICE_PACKAGE_OVERLAYS += device/bn/acclaim/overlay/lineage
 
-PRODUCT_NAME := cm_acclaim
+PRODUCT_NAME := lineage_acclaim
 PRODUCT_DEVICE := acclaim
 PRODUCT_MODEL := Barnes & Noble Nook Tablet
 PRODUCT_RELEASE_NAME := NookTablet
