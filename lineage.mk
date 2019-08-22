@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 # Inherit device configuration for acclaim
 
 $(call inherit-product, device/bn/acclaim/full_acclaim.mk)
-$(call inherit-product-if-exists, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product-if-exists, vendor/cm/config/common_full_tablet_wifionly.mk)
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_BOOTANIMATION_HALF_RES := true
