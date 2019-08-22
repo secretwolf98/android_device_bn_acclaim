@@ -14,6 +14,8 @@ Device kernel repo: git clone https://github.com/LineageOS/android_kernel_bn_acc
 
 Device vendor repo: git clone https://github.com/TheMuppets/proprietary_vendor_bn.git -b cm-13.0 vendor/bn
 
+Source build: . build/envsetup.sh
+
 Breakfast the device: breakfast acclaim
 
 Make the device: make -j4 bacon
